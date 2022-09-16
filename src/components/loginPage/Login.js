@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import chating from "../../asset/chating.jpeg";
 import { Input } from "./Input";
 import PasswordMeter from "./PasswordMeter";
-export const Login = () => {
+const Login = () => {
   const [formState, setFormState] = useState({
     firstName: "",
     lastName: "",
@@ -171,3 +171,4 @@ export const Login = () => {
     </>
   );
 };
+export default Login;
